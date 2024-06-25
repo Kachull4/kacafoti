@@ -98,7 +98,7 @@ export const Contact = styled.section`
     padding: 1px 0;
 
     ${Container}{
-        margin: 10rem auto;
+        margin: 5rem auto;
         text-align: center;
     }
 `

@@ -85,8 +85,8 @@ export default function Home() {
             <div>
               <Heading>Krajina</Heading>
               <p>
-                Fotografování krajiny je pro mě způsob, jak objevovat krásu
-                světa kolem nás a uchovávat ji na snímcích. Při plánování
+                Fotografováním krajiny objevuji krásu
+                světa kolem nás a uchovávám ji na snímcích. Při plánování
                 výpravy si vždy pečlivě vybírám lokaci a studuji počasí, abych
                 využila nejlepší světelné podmínky. Nejraději fotím při východu
                 nebo západu slunce, kdy je světlo měkké a teplé, což dodává
@@ -147,7 +147,7 @@ export default function Home() {
             <div>
               <Heading>Mazlíčci</Heading>
               <p>
-                Fotografování domácích mazlíčků je pro mě radostnou a zábavnou
+                Fotografování domácích mazlíčků je radostnou a zábavnou
                 činností, která mi umožňuje zachytit jejich osobitý charakter a
                 radostné momenty.
               </p>
