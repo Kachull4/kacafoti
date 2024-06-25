@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="cs">
       <GlobalStyles />
       <body className={`${roboto.className} ${pacifico.variable}`}>
         {children}

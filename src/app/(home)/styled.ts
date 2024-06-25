@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image";
+import Link from "next/link";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -30,7 +31,12 @@ export const Intro = styled.section`
     ${Container}{
         display: flex;
         align-items: center;
-        gap: 5rem;
+        gap: 10rem;
+    }
+
+    p {
+        text-align: justify;
+        hyphens: auto;
     }
 `
 
@@ -39,22 +45,12 @@ export const Avatar = styled(Image)`
     height: auto;
 `
 
-export const Landscape = styled(Image)`
-    width: 80rem;
+export const Photo = styled(Image)`
+    width: 80%;
     height: auto;
     border-radius: 10px;
-`
-
-export const Animal = styled(Image)`
-    width: 80rem;
-    height: auto;
-    border-radius: 10px;
-`
-
-export const Pet = styled(Image)`
-    width: 80rem;
-    height: auto;
-    border-radius: 10px;
+    flex-shrink: 0;
+    margin-right: -20%;
 `
 
 export const Navbar = styled.nav`
@@ -76,12 +72,22 @@ export const Menu = styled.ul`
     font-size: 2rem;
 `
 
-export const Card = styled.div`
+export const Card = styled(Link)`
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 5rem;
     padding: 2rem;
     margin: 5rem auto;
-    max-width: 160rem;
+    max-width: 125rem;
+
+    &:nth-child(odd) ${Photo}{
+        margin-right: 0;
+        margin-left: -20%;
+    }
+
+    p {
+        text-align: justify;
+        hyphens: auto;
+    }
 `;
