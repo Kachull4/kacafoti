@@ -32,6 +32,7 @@ export const Intro = styled.section`
         display: flex;
         align-items: center;
         gap: 10rem;
+        margin: 20rem auto;
     }
 
     p {
@@ -81,7 +82,7 @@ export const Card = styled(Link)`
     margin: 5rem auto;
     max-width: 125rem;
 
-    &:nth-child(odd) ${Photo}{
+    div:nth-child(odd) & ${Photo}{
         margin-right: 0;
         margin-left: -20%;
     }
@@ -91,3 +92,25 @@ export const Card = styled(Link)`
         hyphens: auto;
     }
 `;
+
+export const Contact = styled.section`
+    background-color: #eeeef4;
+    padding: 1px 0;
+
+    ${Container}{
+        margin: 10rem auto;
+        text-align: center;
+    }
+`
+
+export const Icons = styled.div`
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 5rem;
+        height: auto;
+    }
+`
