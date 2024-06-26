@@ -1,10 +1,10 @@
 import { Container, Heading } from "@/app/(home)/styled";
 
-export default function Zvirata() {
+export default function Krajina() {
   return (
     <main>
       <Container>
-        <Heading>Zvířata</Heading>
+        <Heading>Krajina</Heading>
       </Container>
     </main>
   );

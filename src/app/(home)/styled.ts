@@ -15,6 +15,10 @@ export const Navbar = styled.nav`
     position: sticky;
     top: -5.5rem;
 
+    ${device.md} {
+        padding: 0 1rem;
+    }
+
     ${Container}{
         display: flex;
         flex-direction: column;
@@ -74,7 +78,7 @@ export const Intro = styled.section`
         gap: 5rem;
         margin: 5rem auto;
 
-        ${device.md} {
+        ${device.lg} {
             flex-direction: row;
             gap: 10rem;
             margin: 20rem auto;
@@ -111,8 +115,13 @@ export const Photo = styled(Image)`
     flex-shrink: 0;
     order: 2;
 
-    ${device.md} {
+    ${device.lg} {
         order: unset;
+        width: 70%;
+        margin-right: -10%;
+    }
+
+    ${device.xxl} {
         width: 80%;
         margin-right: -20%;
     }
@@ -126,18 +135,26 @@ export const Card = styled(Link)`
     gap: 2rem;
     padding: 2rem;
     margin: 3rem auto;
-    max-width: 125rem;
 
-    ${device.md} {
+    ${device.lg} {
         flex-direction: row;
         gap: 5rem;
         margin: 5rem auto;
+        max-width: 105rem;
+    }
+
+    ${device.xxl} {
+        max-width: 125rem;
     }
 
     div:nth-child(odd) & ${Photo}{
         margin-right: 0;
 
-        ${device.md} {
+        ${device.lg} {
+            margin-left: -10%;
+        }
+
+        ${device.xxl} {
             margin-left: -20%;
         }
     }
@@ -147,7 +164,7 @@ export const Card = styled(Link)`
         hyphens: auto;
         order: 1;
 
-        ${device.md} {
+        ${device.lg} {
             order: unset;
         }
     }
@@ -155,7 +172,7 @@ export const Card = styled(Link)`
     ${Heading} {
         text-align: center;
 
-        ${device.md} {
+        ${device.lg} {
             text-align: left;
         }
     }

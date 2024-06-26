@@ -19,11 +19,6 @@ body {
   font-size: 1.6rem;
 }
 
-html,
-body {
-  max-width: 100vw;
-}
-
 body {
   color: #000;
   background-color: #fff;

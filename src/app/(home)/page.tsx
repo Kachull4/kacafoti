@@ -28,7 +28,9 @@ export default function Home() {
     <>
       <Navbar>
         <Container>
-          <Title>Káča fotí</Title>
+          <a href="kacafoti.cz">
+            <Title>Káča fotí</Title>
+          </a>
           <Menu>
             <li>
               <a href="#uvod">O mně</a>
@@ -41,6 +43,9 @@ export default function Home() {
             </li>
             <li>
               <a href="#mazlicci">Mazlíčci</a>
+            </li>
+            <li>
+              <a href="#kontakt">Kontakt</a>
             </li>
           </Menu>
         </Container>
@@ -85,12 +90,11 @@ export default function Home() {
             <div>
               <Heading>Krajina</Heading>
               <p>
-                Fotografováním krajiny objevuji krásu
-                světa kolem nás a uchovávám ji na snímcích. Při plánování
-                výpravy si vždy pečlivě vybírám lokaci a studuji počasí, abych
-                využila nejlepší světelné podmínky. Nejraději fotím při východu
-                nebo západu slunce, kdy je světlo měkké a teplé, což dodává
-                krajině magickou atmosféru.
+                Fotografováním krajiny objevuji krásu světa kolem nás a
+                uchovávám ji na snímcích. Při plánování výpravy si vždy pečlivě
+                vybírám lokaci a studuji počasí, abych využila nejlepší světelné
+                podmínky. Nejraději fotím při východu nebo západu slunce, kdy je
+                světlo měkké a teplé, což dodává krajině magickou atmosféru.
               </p>
               <p>
                 Během focení se soustředím na kompozici – hledám zajímavé prvky,
@@ -174,7 +178,7 @@ export default function Home() {
           </Card>
         </AnimatedOnScroll>
         <AnimatedOnScroll>
-          <Contact>
+          <Contact id="kontakt">
             <Container>
               <Heading>Kontakt</Heading>
               <Icons>
