@@ -17,6 +17,7 @@ export const Navbar = styled.nav`
 
     ${device.md} {
         padding: 0 1rem;
+        top: 0;
     }
 
     ${Container}{
