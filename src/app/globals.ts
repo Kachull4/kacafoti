@@ -1,6 +1,7 @@
 "use client"
 
 import { createGlobalStyle } from "styled-components";
+import { device } from "./breakpoints";
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -21,7 +22,6 @@ body {
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
 }
 
 body {
@@ -36,7 +36,11 @@ a {
 
 p {
   margin-bottom: 1rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+
+  ${device.md} {
+        font-size: 1.8rem;
+    }
 }
 
 `
