@@ -5,6 +5,7 @@ export default function Zvirata() {
     <main>
       <Container>
         <Heading>Zvířata</Heading>
+        <p>Work in progress - Zde bude galerie</p>
       </Container>
     </main>
   );

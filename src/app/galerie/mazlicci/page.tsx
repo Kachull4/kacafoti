@@ -5,6 +5,7 @@ export default function Mazlicci() {
     <main>
       <Container>
         <Heading>Mazlíčci</Heading>
+        <p>Work in progress - Zde bude galerie</p>
       </Container>
     </main>
   );
