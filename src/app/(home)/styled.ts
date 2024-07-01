@@ -39,12 +39,35 @@ export const Menu = styled.ul`
     justify-content: center;
     gap: 2rem;
     list-style: none;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 1rem;
 
     ${device.md} {
         gap: 5rem;
+        font-size: 2rem;
     }
+`
+
+export const MenuItem = styled.li`
+    
+`
+
+export const MenuLink = styled(Link)`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    svg {
+        width: 3em;
+
+        ${device.md} {
+            display: none;
+        }
+    }
+`
+
+export const AnimalsSvg = styled.svg`
+    opacity: 0.6;
 `
 
 export const Title = styled.h1`
@@ -71,6 +94,7 @@ export const Heading = styled.h2`
 export const Intro = styled.section`
     background-color: #eeeef4;
     padding: 1px 2rem;
+    scroll-margin-block: 5rem;
 
     ${Container}{
         display: flex;
@@ -136,6 +160,7 @@ export const Card = styled(Link)`
     gap: 2rem;
     padding: 2rem;
     margin: 3rem auto;
+    scroll-margin-block: 5rem;
 
     ${device.lg} {
         flex-direction: row;

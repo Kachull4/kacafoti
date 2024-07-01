@@ -1,12 +1,9 @@
-import { Container, Heading } from "@/app/(home)/styled";
+import { GalleryPage } from "@/app/components/gallery";
+
+const images = [...Array(14)].map((_, i) =>
+  require(`./images/image (${i + 1}).jpg`)
+);
 
 export default function Mazlicci() {
-  return (
-    <main>
-      <Container>
-        <Heading>Mazlíčci</Heading>
-        <p>Work in progress - Zde bude galerie</p>
-      </Container>
-    </main>
-  );
+  return <GalleryPage images={images} title="Mazlíčci" />;
 }

@@ -4,8 +4,8 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 import { FC, useState } from "react";
 import { GalleryBox } from "./styled";
-import { Modal } from "./modal";
-import { SwiperGallery } from "./swiper";
+import { Modal } from "../modal";
+import { SwiperGallery } from "../swiper";
 
 type Props = {
   images: StaticImport[];
