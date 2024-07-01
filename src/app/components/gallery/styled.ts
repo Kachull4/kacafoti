@@ -2,6 +2,7 @@
 
 import styled from "styled-components"
 import { Heading } from "@/app/(home)/styled";
+import Link from "next/link";
 
 export const GalleryHeading = styled(Heading)`
     text-align: center;
@@ -23,7 +24,7 @@ export const GalleryBox = styled.div`
     }
 `
 
-export const BackButton = styled.a`
+export const BackButton = styled(Link)`
   position: absolute;
   top: 3rem;
   left: 5rem;

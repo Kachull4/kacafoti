@@ -11,10 +11,10 @@ type Props = {
   title: string;
 };
 
-export const GalleryPage: FC<Props> = ({images, title}) => {
+export const GalleryPage: FC<Props> = ({ images, title }) => {
   return (
     <main>
-      <BackButton href="kacfoti.cz">
+      <BackButton href="/">
         <svg
           version="1.1"
           width="20px"
@@ -39,4 +39,4 @@ export const GalleryPage: FC<Props> = ({images, title}) => {
       </AnimatedOnScroll>
     </main>
   );
-}
+};
