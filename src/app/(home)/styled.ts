@@ -204,28 +204,9 @@ export const Card = styled(Link)`
     }
 `;
 
-export const Contact = styled.section`
-    background-color: #eeeef4;
-    padding: 1px 0;
-
-    ${Container}{
-        margin: 2rem auto;
-        text-align: center;
-
-        ${device.md} {
-            margin: 5rem auto;
-        }
-    }
-`
-
-export const Icons = styled.div`
+export const CardButton = styled(Heading)`
+    font-size: 2rem;
+    margin-top: 2rem;
     display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-
-    img {
-        width: 5rem;
-        height: auto;
-    }
+    gap: 1rem;
 `

@@ -8,20 +8,28 @@ export const GlobalStyles = createGlobalStyle`
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+}
+
+html, body {
+  height: 100%;
 }
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-size: 1.6rem;
-}
-
-body {
+  display: flex;
+  flex-direction: column;
   color: #000;
   background-color: #fff;
+  margin: 0;
+}
+
+main {
+  flex-grow: 1;
 }
 
 a {

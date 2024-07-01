@@ -25,6 +25,7 @@ export const GalleryBox = styled.div`
 `
 
 export const BackButton = styled(Link)`
+font-family: var(--pacifico);
   position: absolute;
   top: 3rem;
   left: 5rem;

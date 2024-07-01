@@ -3,7 +3,7 @@ import LandscapeSrc from "./images/DSC06018-Enhanced-NR.jpg";
 import AnimalSrc from "./images/DSC09353-Enhanced-NR.jpg";
 import PetSrc from "./images/DSC03151-Enhanced-NR-2.jpg";
 import { AnimatedOnScroll } from "../components/animated-on-scroll";
-import { ContactBlock } from "../components/contact";
+import { ContactBlock } from "../components/contact/contact";
 
 import {
   Avatar,
@@ -15,11 +15,10 @@ import {
   Title,
   Card,
   Photo,
-  Contact,
-  Icons,
   MenuItem,
   MenuLink,
   AnimalsSvg,
+  CardButton,
 } from "./styled";
 
 export default function Home() {
@@ -240,6 +239,22 @@ export default function Home() {
                 mi, jak rozmanitá a nádherná je naše planeta, a motivují mě k
                 tomu, abych si jí vážila ještě více.
               </p>
+              <CardButton>
+                <span>Zobrazit galerii</span>
+                <svg
+                  version="1.1"
+                  viewBox="0 0 91 91"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      fill="#ff9999"
+                      d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
+                    />
+                  </g>
+                </svg>
+              </CardButton>
             </div>
             <Photo src={LandscapeSrc} alt="Landscape" />
           </Card>
@@ -270,12 +285,28 @@ export default function Home() {
                 připomínají, jak důležité je chránit naši přírodu a její
                 obyvatele.
               </p>
+              <CardButton>
+                <span>Zobrazit galerii</span>
+                <svg
+                  version="1.1"
+                  viewBox="0 0 91 91"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      fill="#ff9999"
+                      d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
+                    />
+                  </g>
+                </svg>
+              </CardButton>
             </div>
           </Card>
         </AnimatedOnScroll>
 
         <AnimatedOnScroll>
-          <Card href="/galerie/zvirata" id="mazlicci">
+          <Card href="/galerie/mazlicci" id="mazlicci">
             <div>
               <Heading>Mazlíčci</Heading>
               <p>
@@ -301,14 +332,30 @@ export default function Home() {
                 vždycky mě zahřeje u srdce, jak moc mi mazlíčci přinášejí radost
                 a jaký význam mají v životě lidí.
               </p>
+              <CardButton>
+                <span>Zobrazit galerii</span>
+                <svg
+                  version="1.1"
+                  viewBox="0 0 91 91"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      fill="#ff9999"
+                      d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
+                    />
+                  </g>
+                </svg>
+              </CardButton>
             </div>
             <Photo src={PetSrc} alt="Kočka" />
           </Card>
         </AnimatedOnScroll>
-        <AnimatedOnScroll>
-          <ContactBlock></ContactBlock>
-        </AnimatedOnScroll>
       </main>
+      <AnimatedOnScroll>
+        <ContactBlock></ContactBlock>
+      </AnimatedOnScroll>
     </>
   );
 }
