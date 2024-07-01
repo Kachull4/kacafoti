@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const Navbar = styled.nav`
     background-color: #fff;
     position: sticky;
-    top: -5.5rem;
+    top: -7.5rem;
 
     ${device.md} {
         padding: 0 1rem;
@@ -41,6 +41,7 @@ export const Menu = styled.ul`
     list-style: none;
     font-size: 1rem;
     padding: 1rem;
+    margin: 0;
 
     ${device.md} {
         gap: 5rem;
@@ -75,6 +76,7 @@ export const Title = styled.h1`
     font-weight: normal;
     font-size: 3.2rem;
     flex-shrink: 0;
+    margin: 1rem auto;
 `
 
 export const Heading = styled.h2`

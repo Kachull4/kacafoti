@@ -10,13 +10,10 @@ export const GlobalStyles = createGlobalStyle`
   padding: 0;
 }
 
-html, body {
-  height: 100%;
-}
-
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
@@ -26,6 +23,7 @@ body {
   color: #000;
   background-color: #fff;
   margin: 0;
+  min-height: 100%;
 }
 
 main {
@@ -45,5 +43,4 @@ p {
         font-size: 1.8rem;
     }
 }
-
 `
