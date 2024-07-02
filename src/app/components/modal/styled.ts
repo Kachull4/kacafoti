@@ -26,11 +26,15 @@ export const ModalContent = styled.div`
 
   img {
     width: 100%;
-    max-width: 160rem;
+    max-width: 45vw;
     height: auto;
     cursor: initial;
     display: block;
     margin: 0 auto;
+  }
+
+  .swiper-wrapper {
+    align-items: center;
   }
 
   .swiper-pagination-bullet {
