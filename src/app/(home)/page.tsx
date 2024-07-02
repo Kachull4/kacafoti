@@ -213,99 +213,6 @@ export default function Home() {
         </Intro>
 
         <AnimatedOnScroll>
-          <Card href="/galerie/krajina" id="krajina">
-            <div>
-              <Heading>Krajina</Heading>
-              <p>
-                Fotografováním krajiny objevuji krásu světa kolem nás a
-                uchovávám ji na snímcích. Při plánování výpravy si vždy pečlivě
-                vybírám lokaci a studuji počasí, abych využila nejlepší světelné
-                podmínky. Nejraději fotím při východu nebo západu slunce, kdy je
-                světlo měkké a teplé, což dodává krajině magickou atmosféru.
-              </p>
-              <p>
-                Během focení se soustředím na kompozici – hledám zajímavé prvky,
-                které by mohly snímek ozvláštnit, jako jsou siluety stromů,
-                skály nebo vodní plochy.
-              </p>
-              <p>
-                Každá krajina má svůj jedinečný charakter a já se snažím
-                zachytit její podstatu a atmosféru. Při focení mě fascinuje, jak
-                světlo a stíny dokážou proměnit i známou scenérii v něco zcela
-                nového a překvapivého.
-              </p>
-              <p>
-                Fotografie krajiny mi přináší radost a inspiraci. Připomínají
-                mi, jak rozmanitá a nádherná je naše planeta, a motivují mě k
-                tomu, abych si jí vážila ještě více.
-              </p>
-              <CardButton>
-                <span>Zobrazit galerii</span>
-                <svg
-                  version="1.1"
-                  viewBox="0 0 91 91"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g>
-                    <path
-                      fill="#ff9999"
-                      d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
-                    />
-                  </g>
-                </svg>
-              </CardButton>
-            </div>
-            <Photo src={LandscapeSrc} alt="Landscape" />
-          </Card>
-        </AnimatedOnScroll>
-
-        <AnimatedOnScroll>
-          <Card href="/galerie/zvirata" id="zvirata">
-            <Photo src={AnimalSrc} alt="Swan" />
-            <div>
-              <Heading>Zvířata</Heading>
-              <p>
-                Fotografování zvířat je pro mě nádherným způsobem, jak se
-                propojit s přírodou a zachytit jedinečné okamžiky v jejich
-                životě.
-              </p>
-              <p>
-                Zásadně vyrážím fotit brzy ráno, kdy jsou zvířata nejaktivnější
-                a barvy přírody jsou nejvýraznější. Trpělivost je klíčová –
-                často trávím hodiny čekáním na ten správný moment. Při focení se
-                snažím respektovat jejich prostor a chovat se tiše, abych je
-                nevyděsila.
-              </p>
-              <p>
-                Každé setkání je jiné a pokaždé mě překvapí, jak rozmanité a
-                krásné jsou detaily zvířecího světa. Každý snímek vypráví svůj
-                vlastní příběh a já se snažím zachytit tu magii okamžiku.
-                Fotografie zvířat mě nejen naplňují radostí, ale také mi
-                připomínají, jak důležité je chránit naši přírodu a její
-                obyvatele.
-              </p>
-              <CardButton>
-                <span>Zobrazit galerii</span>
-                <svg
-                  version="1.1"
-                  viewBox="0 0 91 91"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g>
-                    <path
-                      fill="#ff9999"
-                      d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
-                    />
-                  </g>
-                </svg>
-              </CardButton>
-            </div>
-          </Card>
-        </AnimatedOnScroll>
-
-        <AnimatedOnScroll>
           <Card href="/galerie/mazlicci" id="mazlicci">
             <div>
               <Heading>Mazlíčci</Heading>
@@ -350,6 +257,99 @@ export default function Home() {
               </CardButton>
             </div>
             <Photo src={PetSrc} alt="Kočka" />
+          </Card>
+        </AnimatedOnScroll>
+
+        <AnimatedOnScroll>
+          <Card href="/galerie/krajina" id="krajina">
+            <Photo src={LandscapeSrc} alt="Landscape" />
+            <div>
+              <Heading>Krajina</Heading>
+              <p>
+                Fotografováním krajiny objevuji krásu světa kolem nás a
+                uchovávám ji na snímcích. Při plánování výpravy si vždy pečlivě
+                vybírám lokaci a studuji počasí, abych využila nejlepší světelné
+                podmínky. Nejraději fotím při východu nebo západu slunce, kdy je
+                světlo měkké a teplé, což dodává krajině magickou atmosféru.
+              </p>
+              <p>
+                Během focení se soustředím na kompozici – hledám zajímavé prvky,
+                které by mohly snímek ozvláštnit, jako jsou siluety stromů,
+                skály nebo vodní plochy.
+              </p>
+              <p>
+                Každá krajina má svůj jedinečný charakter a já se snažím
+                zachytit její podstatu a atmosféru. Při focení mě fascinuje, jak
+                světlo a stíny dokážou proměnit i známou scenérii v něco zcela
+                nového a překvapivého.
+              </p>
+              <p>
+                Fotografie krajiny mi přináší radost a inspiraci. Připomínají
+                mi, jak rozmanitá a nádherná je naše planeta, a motivují mě k
+                tomu, abych si jí vážila ještě více.
+              </p>
+              <CardButton>
+                <span>Zobrazit galerii</span>
+                <svg
+                  version="1.1"
+                  viewBox="0 0 91 91"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      fill="#ff9999"
+                      d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
+                    />
+                  </g>
+                </svg>
+              </CardButton>
+            </div>
+          </Card>
+        </AnimatedOnScroll>
+
+        <AnimatedOnScroll>
+          <Card href="/galerie/zvirata" id="zvirata">
+            <div>
+              <Heading>Zvířata</Heading>
+              <p>
+                Fotografování zvířat je pro mě nádherným způsobem, jak se
+                propojit s přírodou a zachytit jedinečné okamžiky v jejich
+                životě.
+              </p>
+              <p>
+                Zásadně vyrážím fotit brzy ráno, kdy jsou zvířata nejaktivnější
+                a barvy přírody jsou nejvýraznější. Trpělivost je klíčová –
+                často trávím hodiny čekáním na ten správný moment. Při focení se
+                snažím respektovat jejich prostor a chovat se tiše, abych je
+                nevyděsila.
+              </p>
+              <p>
+                Každé setkání je jiné a pokaždé mě překvapí, jak rozmanité a
+                krásné jsou detaily zvířecího světa. Každý snímek vypráví svůj
+                vlastní příběh a já se snažím zachytit tu magii okamžiku.
+                Fotografie zvířat mě nejen naplňují radostí, ale také mi
+                připomínají, jak důležité je chránit naši přírodu a její
+                obyvatele.
+              </p>
+              <CardButton>
+                <span>Zobrazit galerii</span>
+                <svg
+                  version="1.1"
+                  viewBox="0 0 91 91"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      fill="#ff9999"
+                      d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
+                    />
+                  </g>
+                </svg>
+              </CardButton>
+            </div>
+            <Photo src={AnimalSrc} alt="Swan" />
           </Card>
         </AnimatedOnScroll>
       </main>
