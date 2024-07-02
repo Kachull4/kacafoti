@@ -1,8 +1,5 @@
 import Link from "next/link";
 import { Container, Heading } from "../../(home)/styled";
-import Image from "next/image";
-import GmailSrc from "./images/gmail.png";
-import InstagramSrc from "./images/instagram.png";
 import { Contact, Icons } from "./styled";
 
 export const ContactBlock = () => {
