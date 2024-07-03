@@ -7,6 +7,8 @@ import { GalleryBox } from "./styled";
 import { Modal } from "../modal";
 import { SwiperGallery } from "../swiper";
 import { AnimatedOnScroll } from "../animated-on-scroll";
+import { useMedia } from "react-use";
+import { size } from "@/app/breakpoints";
 
 type Props = {
   images: StaticImport[];
@@ -14,6 +16,8 @@ type Props = {
 
 export const Gallery: FC<Props> = ({ images }) => {
   const [activeModalIndex, setActiveModalIndex] = useState(-1);
+
+  const isWide = useMedia(`(min-width: ${size.md})`);
 
   const handleCloseModal = () => {
     setActiveModalIndex(-1);
@@ -27,7 +31,7 @@ export const Gallery: FC<Props> = ({ images }) => {
             src={image}
             alt={`Image ${index + 1}`}
             width={300}
-            onClick={() => setActiveModalIndex(index)}
+            onClick={() => isWide && setActiveModalIndex(index)}
           />
         </AnimatedOnScroll>
       ))}

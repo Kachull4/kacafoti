@@ -1,5 +1,6 @@
 "use client"
 
+import { device } from "@/app/breakpoints";
 import styled from "styled-components"
 
 export const ModalBackground = styled.div`
@@ -26,11 +27,22 @@ export const ModalContent = styled.div`
 
   img {
     width: 100%;
-    max-width: 45vw;
     height: auto;
     cursor: initial;
     display: block;
     margin: 0 auto;
+
+    ${device.md} {
+      max-width: 80vw;
+    }
+
+    ${device.xl} {
+      max-width: 70vw;
+    }
+
+    ${device.xl} {
+      max-width: 45vw;
+    }
   }
 
   .swiper-wrapper {
