@@ -180,7 +180,7 @@ export default function Home() {
       <main>
         <Intro id="uvod">
           <Container>
-            <Avatar src={AvatarSrc} alt="Avatar" loading="eager" />
+            <Avatar src={AvatarSrc} alt="Avatar" />
             <div>
               <Heading>
                 Ahoj! Jmenuji se Káča a vítám vás na mém kreativním kousku
