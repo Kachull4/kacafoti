@@ -11,7 +11,22 @@ const roboto = Roboto({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
   title: "Káča fotí",
-  description: "Created by Kateřina Beranová",
+  description: "Jmenuji se Káča a vítám vás na mém kreativním kousku internetu",
+  openGraph: {
+    title: "Káča fotí",
+    description:
+      "Jmenuji se Káča a vítám vás na mém kreativním kousku internetu",
+    url: "https://kacafoti.cz",
+    type: "website",
+    images: [
+      {
+        url: "https://kacafoti.cz/web.jpg",
+        width: 800,
+        height: 600,
+        alt: "Náhled stránky Káča fotí",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

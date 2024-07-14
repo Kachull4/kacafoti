@@ -6,6 +6,7 @@ import Link from "next/link";
 
 export const GalleryHeading = styled(Heading)`
     text-align: center;
+    font-size: 5rem;
 `
 
 export const GalleryBox = styled.div`

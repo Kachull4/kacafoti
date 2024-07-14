@@ -217,27 +217,24 @@ export default function Home() {
             <div>
               <Heading>Mazlíčci</Heading>
               <p>
-                Fotografování domácích mazlíčků je radostnou a zábavnou
-                činností, která mi umožňuje zachytit jejich osobitý charakter a
-                radostné momenty.
+                Fotografování domácích mazlíčků je zábavnou činností, která mi
+                umožňuje zachytit jejich osobitý charakter a radostné momenty.
               </p>
               <p>
-                Používám různé rekvizity, hračky a pamlsky, abych upoutala
-                jejich pozornost a vyvolala u nich různé výrazy a pózy. Ráda
-                fotím v přirozeném světle, nejlépe venku v přírodě nebo na
-                zahradě, aby byly snímky co nejvíce autentické a plné života.
+                Používám hračky a pamlsky, k upoutání jejich pozornost a
+                vyvolání různých výrazů a póz. Ráda fotím v přirozeném světle,
+                ideálně v přírodě, aby byly snímky co nejvíce autentické a plné
+                života.
               </p>
               <p>
-                Každý mazlíček je jiný a já se snažím vystihnout jejich
+                Každý mazlíček je jiný, proto se snažím vystihnout jejich
                 jedinečnou osobnost. Trpělivost je klíčová, protože mazlíčci
-                mají svou vlastní hlavu a často neposedí na místě. Ale právě to
-                dělá focení tak zábavným a nevyzpytatelným.
+                mají svou vlastní hlavu a často neposedí. Ale právě to dělá
+                focení tak zábavným a nevyzpytatelným.
               </p>
               <p>
                 Výsledné fotografie nejsou jen obrázky, ale vzpomínky na
-                společné chvíle plné lásky a radosti. Když se na ně podívám,
-                vždycky mě zahřeje u srdce, jak moc mi mazlíčci přinášejí radost
-                a jaký význam mají v životě lidí.
+                společné chvíle plné lásky a radosti.
               </p>
               <CardButton>
                 <span>Zobrazit galerii</span>
@@ -266,27 +263,24 @@ export default function Home() {
             <div>
               <Heading>Krajina</Heading>
               <p>
-                Fotografováním krajiny objevuji krásu světa kolem nás a
-                uchovávám ji na snímcích. Při plánování výpravy si vždy pečlivě
-                vybírám lokaci a studuji počasí, abych využila nejlepší světelné
-                podmínky. Nejraději fotím při východu nebo západu slunce, kdy je
-                světlo měkké a teplé, což dodává krajině magickou atmosféru.
+                Při fotografování krajiny objevuji a uchovávám krásu světa kolem
+                nás. Pečlivě vybírám lokaci a studuji počasí, abych využila
+                nejlepší světelné podmínky. Nejraději fotím při východu nebo
+                západu slunce, kdy je světlo měkké a teplé, což dodává krajině
+                magickou atmosféru.
               </p>
               <p>
-                Během focení se soustředím na kompozici – hledám zajímavé prvky,
-                které by mohly snímek ozvláštnit, jako jsou siluety stromů,
-                skály nebo vodní plochy.
+                Soustředím se na kompozici a hledám zajímavé prvky, jako jsou
+                siluety stromů, skály nebo vodní plochy.
               </p>
               <p>
-                Každá krajina má svůj jedinečný charakter a já se snažím
-                zachytit její podstatu a atmosféru. Při focení mě fascinuje, jak
-                světlo a stíny dokážou proměnit i známou scenérii v něco zcela
-                nového a překvapivého.
+                Každá krajina má svůj jedinečný charakter, snažím se proto
+                zachytit její podstatu a atmosféru. Světlo a stíny dokážou
+                proměnit i známou scenérii v něco nového a překvapivého.
               </p>
               <p>
-                Fotografie krajiny mi přináší radost a inspiraci. Připomínají
-                mi, jak rozmanitá a nádherná je naše planeta, a motivují mě k
-                tomu, abych si jí vážila ještě více.
+                Fotografie krajiny mi přináší radost a inspiraci a motivují mě
+                si jí vážit ještě více.
               </p>
               <CardButton>
                 <span>Zobrazit galerii</span>
@@ -313,22 +307,19 @@ export default function Home() {
             <div>
               <Heading>Zvířata</Heading>
               <p>
-                Fotografování zvířat je pro mě nádherným způsobem, jak se
-                propojit s přírodou a zachytit jedinečné okamžiky v jejich
-                životě.
+                Fotografování zvířat je pro mě způsobem, jak se propojit s
+                přírodou a zachytit jedinečné okamžiky jejich života.
               </p>
               <p>
-                Zásadně vyrážím fotit brzy ráno, kdy jsou zvířata nejaktivnější
-                a barvy přírody jsou nejvýraznější. Trpělivost je klíčová –
-                často trávím hodiny čekáním na ten správný moment. Při focení se
-                snažím respektovat jejich prostor a chovat se tiše, abych je
-                nevyděsila.
+                Vyrážím brzy ráno, kdy jsou zvířata nejaktivnější a barvy
+                přírody jsou nejvýraznější. Trpělivost je klíčová, často trávím
+                hodiny čekáním na správný moment. Snažím se respektovat jejich
+                prostor a chovat se tiše, abych je nevyděsila.
               </p>
               <p>
-                Každé setkání je jiné a pokaždé mě překvapí, jak rozmanité a
-                krásné jsou detaily zvířecího světa. Každý snímek vypráví svůj
-                vlastní příběh a já se snažím zachytit tu magii okamžiku.
-                Fotografie zvířat mě nejen naplňují radostí, ale také mi
+                Každé setkání je jiné a vždy mě překvapí, jak rozmanité a krásné
+                jsou detaily zvířecího světa. Každý snímek vypráví svůj vlastní
+                příběh a zachycuje magii okamžiku. Fotografie zvířat mi
                 připomínají, jak důležité je chránit naši přírodu a její
                 obyvatele.
               </p>
