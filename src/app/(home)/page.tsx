@@ -1,7 +1,7 @@
 import AvatarSrc from "./images/avatar.png";
-import LandscapeSrc from "./images/DSC06018-Enhanced-NR.jpg";
-import AnimalSrc from "./images/DSC09353-Enhanced-NR.jpg";
-import PetSrc from "./images/DSC03151-Enhanced-NR-2.jpg";
+import LandscapeSrc from "./images/DSC06018-Enhanced-NR.webp";
+import AnimalSrc from "./images/DSC09353-Enhanced-NR.webp";
+import PetSrc from "./images/DSC03151-Enhanced-NR-2.webp";
 import { AnimatedOnScroll } from "../components/animated-on-scroll";
 import { ContactBlock } from "../components/contact/contact";
 
