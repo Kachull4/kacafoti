@@ -1,4 +1,4 @@
-import AvatarSrc from "./images/avatar.png";
+import AvatarSrc from "./images/avatar.webp";
 import LandscapeSrc from "./images/DSC06018-Enhanced-NR.webp";
 import AnimalSrc from "./images/DSC09353-Enhanced-NR.webp";
 import PetSrc from "./images/DSC03151-Enhanced-NR-2.webp";
@@ -180,7 +180,7 @@ export default function Home() {
       <main>
         <Intro id="uvod">
           <Container>
-            <Avatar src={AvatarSrc} alt="Avatar" />
+            <Avatar src={AvatarSrc} alt="Avatar" loading="eager" />
             <div>
               <Heading>
                 Ahoj! Jmenuji se Káča a vítám vás na mém kreativním kousku
