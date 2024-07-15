@@ -26,14 +26,13 @@ export const Gallery: FC<Props> = ({ images }) => {
   return (
     <GalleryBox>
       {images.map((image, index) => (
-        <AnimatedOnScroll key={index}>
-          <Image
-            src={image}
-            alt={`Image ${index + 1}`}
-            width={300}
-            onClick={() => isWide && setActiveModalIndex(index)}
-          />
-        </AnimatedOnScroll>
+        <Image
+          src={image}
+          alt={`Image ${index + 1}`}
+          width={300}
+          key={index}
+          onClick={() => isWide && setActiveModalIndex(index)}
+        />
       ))}
       <Modal show={activeModalIndex >= 0} onClose={handleCloseModal}>
         <SwiperGallery

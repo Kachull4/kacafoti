@@ -12,8 +12,8 @@ export const GalleryHeading = styled(Heading)`
 export const GalleryBox = styled.div`
     max-width: 192rem;
     margin: 5rem auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     padding: 0 2rem;
 
@@ -22,6 +22,8 @@ export const GalleryBox = styled.div`
         width: 100%;
         height: auto;
         cursor: pointer;
+        width: auto;
+        height: 25rem;
     }
 `
 
