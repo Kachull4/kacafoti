@@ -288,9 +288,10 @@ export default function Home() {
             <div>
               <Heading>Portréty</Heading>
               <p>
-                Fotografování portrétů je pro mě srdeční záležitost, i když jsem
-                na začátku své cesty. Vždy se snažím zachytit nejen vzhled, ale
-                i osobnost a jedinečnost každého člověka.
+                Přestože jsem teprve na začátku své cesty, je pro mě
+                fotografování portrétů srdeční záležitost. Vždy se snažím
+                zachytit nejen vzhled, ale i osobnost a jedinečnost každého
+                člověka.
               </p>
               <p>
                 Mým cílem není jenom vyfotit pěkný obrázek, ale vytvořit
