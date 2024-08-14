@@ -288,9 +288,9 @@ export default function Home() {
             <div>
               <Heading>Portréty</Heading>
               <p>
-                Fotografování portrétů je pro mě srdeční záležitostí, přestože
-                jsem teprve na začátku své cesty. Vždy se snažím zachytit nejen
-                vzhled, ale i osobnost a jedinečnost každého člověka.
+                Srdeční záležitostí jsou pro mě portréty, přestože jsem teprve
+                na začátku své cesty. Vždy se snažím zachytit nejen vzhled, ale
+                i osobnost a jedinečnost každého člověka.
               </p>
               <p>
                 Mým cílem není jenom vyfotit pěkný obrázek, ale vytvořit
@@ -332,8 +332,9 @@ export default function Home() {
             <div>
               <Heading>Mazlíčci</Heading>
               <p>
-                Fotografování domácích mazlíčků je zábavnou činností, která mi
-                umožňuje zachytit jejich osobitý charakter a radostné momenty.
+                Velmi zábavnou činností je fotografování domácích mazlíčků.
+                Umožňuje mi zachytit jejich osobitý charakter a radostné
+                momenty.
               </p>
               <p>
                 Používám hračky a pamlsky, k upoutání jejich pozornost a
