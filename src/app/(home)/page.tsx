@@ -20,6 +20,9 @@ import {
   MenuLink,
   AnimalsSvg,
   CardButton,
+  Blog,
+  BlogTile,
+  BlogButton,
 } from "./styled";
 
 export default function Home() {
@@ -302,7 +305,6 @@ export default function Home() {
             </div>
           </Container>
         </Intro>
-
         <AnimatedOnScroll>
           <Card href="/galerie/portrety" id="portrety">
             <div>
@@ -345,7 +347,6 @@ export default function Home() {
             <Photo src={PortretSrc} alt="Portrét" />
           </Card>
         </AnimatedOnScroll>
-
         <AnimatedOnScroll>
           <Card href="/galerie/mazlicci" id="mazlicci">
             <Photo src={PetSrc} alt="Kočka" />
@@ -391,7 +392,6 @@ export default function Home() {
             </div>
           </Card>
         </AnimatedOnScroll>
-
         <AnimatedOnScroll>
           <Card href="/galerie/krajina" id="krajina">
             <div>
@@ -436,7 +436,6 @@ export default function Home() {
             <Photo src={LandscapeSrc} alt="Landscape" />
           </Card>
         </AnimatedOnScroll>
-
         <AnimatedOnScroll>
           <Card href="/galerie/zvirata" id="zvirata">
             <Photo src={AnimalSrc} alt="Swan" />
@@ -477,6 +476,28 @@ export default function Home() {
               </CardButton>
             </div>
           </Card>
+        </AnimatedOnScroll>
+        <AnimatedOnScroll>
+          <Blog>
+            <Heading>Blog</Heading>
+            <BlogTile>Bude doplněno</BlogTile>
+            <BlogButton href="/blog">
+              <span>Zobrazit všechny články</span>
+              <svg
+                version="1.1"
+                viewBox="0 0 91 91"
+                width="20px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    fill="#ff9999"
+                    d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
+                  />
+                </g>
+              </svg>
+            </BlogButton>
+          </Blog>
         </AnimatedOnScroll>
       </main>
       <AnimatedOnScroll>

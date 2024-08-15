@@ -215,3 +215,25 @@ export const CardButton = styled(Heading)`
     display: flex;
     gap: 1rem;
 `
+
+export const Blog = styled.section`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 3rem auto;
+    scroll-margin-block: 5rem;
+`
+
+export const BlogTile = styled.div`
+    border-radius: 10px;
+`
+
+export const BlogButton = styled(Link)`
+    font-size: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+`
