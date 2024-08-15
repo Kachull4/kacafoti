@@ -36,15 +36,14 @@ export const Navbar = styled.nav`
 
 export const Menu = styled.ul`
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-evenly;
     list-style: none;
     font-size: 1rem;
     padding: 1rem;
     margin: 0;
+    width: 100%;
 
     ${device.md} {
-        gap: 5rem;
         font-size: 2rem;
     }
 `
@@ -71,12 +70,16 @@ export const AnimalsSvg = styled.svg`
     opacity: 0.6;
 `
 
-export const Title = styled.h1`
-    font-family: var(--pacifico);
-    font-weight: normal;
-    font-size: 3.2rem;
+export const Title = styled.a`
     flex-shrink: 0;
-    margin: 1rem auto;
+
+    h1 {
+        font-family: var(--pacifico);
+        font-weight: normal;
+        font-size: 3.2rem;
+        flex-shrink: 0;
+        margin: 1rem auto;
+    }
 `
 
 export const Heading = styled.h2`
