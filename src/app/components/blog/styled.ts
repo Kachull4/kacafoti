@@ -8,19 +8,19 @@ export const BlogGrid = styled.div`
     flex-wrap: wrap;
 `;
 
-export const Tile = styled(Link)`
-    border: '1px solid #ddd';
-    border-radius: '10px';
-    overflow: 'hidden';
-    box-shadow: '0 2px 8px rgba(0, 0, 0, 0.1)';
-    max-width: '300px';
-    margin: '1em';
-    text-decoration: 'none';
+export const Tile = styled.div`
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 1em;
+    text-decoration: none;
 `
 
 export const TileImage = styled.img`
-    width: '100%';
-    height: 'auto';
+    width: 100%;
+    height: auto;
 `;
 
 export const TileContent = styled.div`
@@ -28,7 +28,7 @@ export const TileContent = styled.div`
 `;
 
 export const TileTitle = styled.h2`
-    font-size: 1.5em;
+    font-size: 1.8rem;
     margin: 0 0 0.5em;
     color: #333;
 `;

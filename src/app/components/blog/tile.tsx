@@ -1,3 +1,6 @@
+"use client";
+
+import Link from "next/link";
 import {
   Tile,
   TileContent,
@@ -22,12 +25,14 @@ export const BlogTile: React.FC<BlogTileProps> = ({
   readMoreLink,
 }) => {
   return (
-    <Tile href="#">
-      <TileImage src={imageUrl} alt={altText} />
-      <TileContent>
-        <TileTitle>{title}</TileTitle>
-        <TileDescription>{description}</TileDescription>
-      </TileContent>
-    </Tile>
+    <Link href={readMoreLink} passHref>
+      <Tile>
+        <TileImage src={imageUrl} alt={altText} />
+        <TileContent>
+          <TileTitle>{title}</TileTitle>
+          <TileDescription>{description}</TileDescription>
+        </TileContent>
+      </Tile>
+    </Link>
   );
 };

@@ -21,9 +21,10 @@ import {
   AnimalsSvg,
   CardButton,
   Blog,
-  BlogTile,
   BlogButton,
 } from "./styled";
+import { BlogTile } from "../components/blog/tile";
+import { articles } from "../articles";
 
 export default function Home() {
   return (
@@ -478,9 +479,18 @@ export default function Home() {
           </Card>
         </AnimatedOnScroll>
         <AnimatedOnScroll>
-          <Blog>
+          <Blog id="blog">
             <Heading>Blog</Heading>
-            <BlogTile>Bude doplněno</BlogTile>
+            {articles.map((article) => (
+              <BlogTile
+                key={article.id}
+                title={article.title}
+                description={article.description}
+                imageUrl={article.imageUrl}
+                altText={article.altText}
+                readMoreLink={`/blog/${article.id}`}
+              />
+            ))}
             <BlogButton href="/blog">
               <span>Zobrazit všechny články</span>
               <svg

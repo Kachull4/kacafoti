@@ -1,14 +1,19 @@
-import { Container } from "@/app/(home)/styled";
-import { BlogGrid } from "./styled";
-import { BlogTile } from "./tile";
-import { BackButton } from "../gallery/styled";
-import { articles } from "@/app/articles";
+"use client";
 
-export const BlogPage: React.FC = () => {
+import { Container } from "@/app/(home)/styled";
+import { Content, Image, Title } from "./styled";
+import { FC, ReactNode } from "react";
+import { BackButton } from "../gallery/styled";
+
+export const BlogDetailPage: FC<{
+  imageUrl: string;
+  title: string;
+  children: ReactNode;
+}> = ({ imageUrl, title, children }) => {
   return (
     <main>
       <Container>
-        <BackButton href="/">
+        <BackButton href="/blog">
           <svg
             version="1.1"
             width="20px"
@@ -22,17 +27,11 @@ export const BlogPage: React.FC = () => {
               />
             </g>
           </svg>
-          Zpět na hlavní stránku
+          Zpět na výpis článků
         </BackButton>
-        <BlogGrid>
-          {articles.map((article) => (
-            <BlogTile
-            {...article}
-              key={article.id}
-              readMoreLink={`/blog/${article.id}`}
-            />
-          ))}
-        </BlogGrid>
+        <Image src={imageUrl} alt={title} />
+        <Title>{title}</Title>
+        <Content>{children}</Content>
       </Container>
     </main>
   );
