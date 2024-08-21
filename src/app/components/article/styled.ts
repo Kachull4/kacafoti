@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 export const BlogContainer = styled(Container)`
   max-width: 90rem;
+  padding: 0 2rem;
 `;
 
 export const Image = styled.img`

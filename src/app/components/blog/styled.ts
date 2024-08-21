@@ -1,8 +1,11 @@
 "use client"
 
-import { Heading } from "@/app/(home)/styled";
-import Link from "next/link";
+import { Container, Heading } from "@/app/(home)/styled";
 import styled from "styled-components"
+
+export const BlogContainer = styled(Container)`
+    padding: 0 2rem;
+`;
 
 export const BlogGrid = styled.div`
     display: flex;

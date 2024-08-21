@@ -1,7 +1,7 @@
 "use client";
 
 import { Container } from "@/app/(home)/styled";
-import { BlogGrid, BlogHeading } from "./styled";
+import { BlogContainer, BlogGrid, BlogHeading } from "./styled";
 import { BackButton } from "../gallery/styled";
 import { articles } from "@/app/articles";
 import { BlogTile } from "./tile";
@@ -13,7 +13,7 @@ export const BlogPage: React.FC = () => {
     <>
       <NavigationMenu />
       <main>
-        <Container>
+        <BlogContainer>
           <BlogHeading>Blog</BlogHeading>
           <BlogGrid>
             {articles.map((article) => (
@@ -40,7 +40,7 @@ export const BlogPage: React.FC = () => {
             </svg>
             Zpět na hlavní stránku
           </BackButton>
-        </Container>
+        </BlogContainer>
       </main>
       <ContactBlock />
     </>
