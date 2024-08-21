@@ -14,7 +14,7 @@ export default function Article() {
         hollywoodský záběr na hvězdnou oblohu v tom nebyl, ale i tak jsem se
         našla.
       </p>
-      <h2>Začátky plné snahy a lehkého zoufalství</h2>
+      <h3>Začátky plné snahy a lehkého zoufalství</h3>
       <p>
         Moje první fotky? Řekněme, že byly tak trochu… no, děsivé. Fotila jsem
         na plně automatický režim, protože manuálnímu nastavení jsem absolutně
@@ -26,7 +26,7 @@ export default function Article() {
         mě drželo. I když většina těch fotek skončila schovaná, aby je nikdo
         nikdy neviděl.
       </p>
-      <h2>Proč mě to baví, i když je to občas na zbláznění?</h2>
+      <h3>Proč mě to baví, i když je to občas na zbláznění?</h3>
       <p>
         Jako introvert mám radši, když můžu svoje myšlenky vyjádřit obrazem než
         slovy. Focení mi umožňuje být kreativní, a přitom se vyhnout dlouhým
@@ -36,7 +36,7 @@ export default function Article() {
         důvod, proč s klidem odmítnout všechny společenské akce – přece musím
         honit světlo a ne lidi.
       </p>
-      <h2>Co mě žene dál? (kromě kofeinu)</h2>
+      <h3>Co mě žene dál? (kromě kofeinu)</h3>
       <p>
         K focení mě vlastně dostala prostá věc – potřeba zaznamenat krásu kolem
         sebe a dát jí nějaký svůj osobitý twist. Zjistila jsem, že i obyčejné
@@ -44,7 +44,7 @@ export default function Article() {
         mě způsob, jak vyjádřit emoce bez toho, abych se do toho musela moc
         pouštět slovy. Fotky řeknou vše za mě – a já si mezitím můžu dát kafe.
       </p>
-      <h2>Co čekat na tomhle blogu? (kromě kvalitních fotek, haha)</h2>
+      <h3>Co čekat na tomhle blogu? (kromě kvalitních fotek, haha)</h3>
       <p>
         V dalších článcích bych chtěla sdílet svoje zážitky z focení, tipy, jak
         se nezbláznit z techniky, a možná i nějaké ty vtipné historky, co se

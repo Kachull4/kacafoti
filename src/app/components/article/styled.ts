@@ -1,6 +1,6 @@
 "use client"
 
-import { Container } from "@/app/(home)/styled";
+import { Container, Heading } from "@/app/(home)/styled";
 import styled from "styled-components";
 
 export const BlogContainer = styled(Container)`
@@ -14,17 +14,18 @@ export const Image = styled.img`
   border-radius: 10px;
 `;
 
-export const Title = styled.h1`
-  font-size: 2.5em;
-  margin-bottom: 1em;
+export const Title = styled(Heading)`
+  margin-bottom: 1rem;
 `;
 
 export const Content = styled.div`
-  h2 {
-    font-size: 2.4rem;
+  margin-bottom: 5rem;
+
+  h3 {
+    font-size: 2rem;
   }
 
   p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 `;

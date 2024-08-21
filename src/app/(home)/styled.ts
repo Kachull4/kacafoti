@@ -14,6 +14,7 @@ export const Navbar = styled.nav`
     background-color: #fff;
     position: sticky;
     top: -7.5rem;
+    z-index: 10;
 
     ${device.md} {
         padding: 0 1rem;
@@ -232,6 +233,7 @@ export const BlogTile = styled.div`
 `
 
 export const BlogButton = styled(Link)`
+    font-family: var(--pacifico);
     font-size: 2rem;
     margin-top: 2rem;
     display: flex;

@@ -1,12 +1,19 @@
 "use client"
 
+import { Heading } from "@/app/(home)/styled";
 import Link from "next/link";
 import styled from "styled-components"
 
 export const BlogGrid = styled.div`
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 5rem;
 `;
+
+export const BlogHeading = styled(Heading)`
+    text-align: center;
+    font-size: 5rem;
+`
 
 export const Tile = styled.div`
     border: 1px solid #ddd;
@@ -30,11 +37,14 @@ export const TileContent = styled.div`
 export const TileTitle = styled.h2`
     font-size: 1.8rem;
     margin: 0 0 0.5em;
-    color: #333;
 `;
 
 export const TileDescription = styled.p`
-    font-size: 1em;
-    color: #666;
-    margin: 0 0 1em;
+    font-size: 1.6rem;
+    margin: 0 0 1rem;
+`;
+
+export const TileDate = styled.span`
+    font-size: 1.4rem;
+    margin: 0 0 1rem;
 `;

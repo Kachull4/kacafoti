@@ -1,8 +1,13 @@
 "use client"
 
 import styled from "styled-components"
-import { Heading } from "@/app/(home)/styled";
+import { Container, Heading } from "@/app/(home)/styled";
 import Link from "next/link";
+
+export const GalleryContainer = styled(Container)`
+    max-width: 800rem;
+    position: relative;
+`
 
 export const GalleryHeading = styled(Heading)`
     text-align: center;
@@ -28,10 +33,7 @@ export const GalleryBox = styled.div`
 `
 
 export const BackButton = styled(Link)`
-font-family: var(--pacifico);
-  position: absolute;
-  top: 3rem;
-  left: 5rem;
+  font-family: var(--pacifico);
   background: none;
   border: none;
   font-size: 2rem;
