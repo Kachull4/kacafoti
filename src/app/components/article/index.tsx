@@ -1,7 +1,6 @@
 "use client";
 
-import { Container } from "@/app/(home)/styled";
-import { Content, Image, Title } from "./styled";
+import { BlogContainer, Content, Image, Title } from "./styled";
 import { FC, ReactNode } from "react";
 import { BackButton } from "../gallery/styled";
 
@@ -12,7 +11,7 @@ export const BlogDetailPage: FC<{
 }> = ({ imageUrl, title, children }) => {
   return (
     <main>
-      <Container>
+      <BlogContainer>
         <BackButton href="/blog">
           <svg
             version="1.1"
@@ -32,7 +31,7 @@ export const BlogDetailPage: FC<{
         <Image src={imageUrl} alt={title} />
         <Title>{title}</Title>
         <Content>{children}</Content>
-      </Container>
+      </BlogContainer>
     </main>
   );
 };

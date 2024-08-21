@@ -4,7 +4,7 @@ export default function Article() {
   return (
     <BlogDetailPage
       title="Jak jsem se dostala k focení a proč mě tak baví"
-      imageUrl="/blog/images/zacatky-foceni.jpg"
+      imageUrl="/blog/images/zacatky-foceni-detail.jpg"
     >
       <p>
         Každý má svůj příběh o tom, jak se dostal k tomu, co ho baví. A většinou

@@ -1,10 +1,14 @@
 "use client"
 
+import { Container } from "@/app/(home)/styled";
 import styled from "styled-components";
+
+export const BlogContainer = styled(Container)`
+  max-width: 90rem;
+`;
 
 export const Image = styled.img`
   width: 100%;
-  max-width: 50rem;
   height: auto;
   margin-bottom: 2rem;
   border-radius: 10px;
@@ -16,5 +20,11 @@ export const Title = styled.h1`
 `;
 
 export const Content = styled.div`
-  font-size: 1.8rem;
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
 `;
