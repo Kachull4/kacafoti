@@ -31,6 +31,8 @@ export const ModalContent = styled.div`
     cursor: initial;
     display: block;
     margin: 0 auto;
+    object-fit: contain;
+    max-height: 95vh;
 
     ${device.md} {
       max-width: 80vw;

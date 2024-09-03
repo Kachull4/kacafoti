@@ -1,6 +1,6 @@
 import { GalleryPage } from "@/app/components/gallery";
 
-const images = [...Array(13)].map((_, i) =>
+const images = [...Array(16)].map((_, i) =>
   require(`./images/image (${i + 1}).jpg`)
 );
 

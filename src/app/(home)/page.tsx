@@ -2,8 +2,8 @@
 
 import AvatarSrc from "./images/avatar.webp";
 import LandscapeSrc from "./images/DSC06018-Enhanced-NR.webp";
-import AnimalSrc from "./images/DSC09353-Enhanced-NR.webp";
-import PetSrc from "./images/DSC03151-Enhanced-NR-2.webp";
+import AnimalSrc from "./images/DSC09353-Enhanced-NR.jpg";
+import PetSrc from "./images/DSC03151-Enhanced-NR-2.jpg";
 import PortretSrc from "./images/DSC01787-Enhanced-NR.webp";
 import { AnimatedOnScroll } from "../components/animated-on-scroll";
 import { ContactBlock } from "../components/contact/contact";
@@ -62,26 +62,25 @@ export default function Home() {
           </Container>
         </Intro>
         <AnimatedOnScroll>
-          <Card href="/galerie/portrety" id="portrety">
+          <Card href="/galerie/zvirata" id="zvirata">
             <div>
-              <Heading>Portréty</Heading>
+              <Heading>Zvířata</Heading>
               <p>
-                Srdeční záležitostí jsou pro mě portréty, přestože jsem teprve
-                na začátku své cesty. Vždy se snažím zachytit nejen vzhled, ale
-                i osobnost a jedinečnost každého člověka.
+                Fotografování zvířat je pro mě způsobem, jak se propojit s
+                přírodou a zachytit jedinečné okamžiky jejich života.
               </p>
               <p>
-                Mým cílem není jenom vyfotit pěkný obrázek, ale vytvořit
-                emotivní a autentické snímky, které v sobě nesou vaši osobní
-                podstatu.
+                Vyrážím brzy ráno, kdy jsou zvířata nejaktivnější a barvy
+                přírody jsou nejvýraznější. Trpělivost je klíčová, často trávím
+                hodiny čekáním na správný moment. Snažím se respektovat jejich
+                prostor a chovat se tiše, abych je nevyděsila.
               </p>
               <p>
-                Každý portrét je pro mě příležitostí vyjádřit kreativitu a
-                uměleckou vizi. Spolupráce se mnou není jenom o focení, ale o
-                společném objevování vaší osobní krásy a síly. Mým závazkem je
-                vytvořit pro vás fotografie, které nejenom že vám budou
-                připomínat krásné momenty, ale které v sobě budou skrývat vaši
-                jedinečnou esenci.
+                Každé setkání je jiné a vždy mě překvapí, jak rozmanité a krásné
+                jsou detaily zvířecího světa. Každý snímek vypráví svůj vlastní
+                příběh a zachycuje magii okamžiku. Fotografie zvířat mi
+                připomínají, jak důležité je chránit naši přírodu a její
+                obyvatele.
               </p>
               <CardButton>
                 <span>Zobrazit galerii</span>
@@ -100,12 +99,55 @@ export default function Home() {
                 </svg>
               </CardButton>
             </div>
-            <Photo src={PortretSrc} alt="Portrét" />
+            <Photo src={AnimalSrc} alt="Swan" />
+          </Card>
+        </AnimatedOnScroll>
+        <AnimatedOnScroll>
+          <Card href="/galerie/krajina" id="krajina">
+            <Photo src={LandscapeSrc} alt="Landscape" />
+            <div>
+              <Heading>Krajina</Heading>
+              <p>
+                Při fotografování krajiny objevuji a uchovávám krásu světa kolem
+                nás. Pečlivě vybírám lokaci a studuji počasí, abych využila
+                nejlepší světelné podmínky. Nejraději fotím při východu nebo
+                západu slunce, kdy je světlo měkké a teplé, což dodává krajině
+                magickou atmosféru.
+              </p>
+              <p>
+                Soustředím se na kompozici a hledám zajímavé prvky, jako jsou
+                siluety stromů, skály nebo vodní plochy.
+              </p>
+              <p>
+                Každá krajina má svůj jedinečný charakter, snažím se proto
+                zachytit její podstatu a atmosféru. Světlo a stíny dokážou
+                proměnit i známou scenérii v něco nového a překvapivého.
+              </p>
+              <p>
+                Fotografie krajiny mi přináší radost a inspiraci a motivují mě
+                si jí vážit ještě více.
+              </p>
+              <CardButton>
+                <span>Zobrazit galerii</span>
+                <svg
+                  version="1.1"
+                  viewBox="0 0 91 91"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      fill="#ff9999"
+                      d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
+                    />
+                  </g>
+                </svg>
+              </CardButton>
+            </div>
           </Card>
         </AnimatedOnScroll>
         <AnimatedOnScroll>
           <Card href="/galerie/mazlicci" id="mazlicci">
-            <Photo src={PetSrc} alt="Kočka" />
             <div>
               <Heading>Mazlíčci</Heading>
               <p>
@@ -146,73 +188,32 @@ export default function Home() {
                 </svg>
               </CardButton>
             </div>
+            <Photo src={PetSrc} alt="Kočka" />
           </Card>
         </AnimatedOnScroll>
+
         <AnimatedOnScroll>
-          <Card href="/galerie/krajina" id="krajina">
+          <Card href="/galerie/portrety" id="portrety">
+            <Photo src={PortretSrc} alt="Portrét" />
             <div>
-              <Heading>Krajina</Heading>
+              <Heading>Portréty</Heading>
               <p>
-                Při fotografování krajiny objevuji a uchovávám krásu světa kolem
-                nás. Pečlivě vybírám lokaci a studuji počasí, abych využila
-                nejlepší světelné podmínky. Nejraději fotím při východu nebo
-                západu slunce, kdy je světlo měkké a teplé, což dodává krajině
-                magickou atmosféru.
+                Srdeční záležitostí jsou pro mě portréty, přestože jsem teprve
+                na začátku své cesty. Vždy se snažím zachytit nejen vzhled, ale
+                i osobnost a jedinečnost každého člověka.
               </p>
               <p>
-                Soustředím se na kompozici a hledám zajímavé prvky, jako jsou
-                siluety stromů, skály nebo vodní plochy.
+                Mým cílem není jenom vyfotit pěkný obrázek, ale vytvořit
+                emotivní a autentické snímky, které v sobě nesou vaši osobní
+                podstatu.
               </p>
               <p>
-                Každá krajina má svůj jedinečný charakter, snažím se proto
-                zachytit její podstatu a atmosféru. Světlo a stíny dokážou
-                proměnit i známou scenérii v něco nového a překvapivého.
-              </p>
-              <p>
-                Fotografie krajiny mi přináší radost a inspiraci a motivují mě
-                si jí vážit ještě více.
-              </p>
-              <CardButton>
-                <span>Zobrazit galerii</span>
-                <svg
-                  version="1.1"
-                  viewBox="0 0 91 91"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g>
-                    <path
-                      fill="#ff9999"
-                      d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
-                    />
-                  </g>
-                </svg>
-              </CardButton>
-            </div>
-            <Photo src={LandscapeSrc} alt="Landscape" />
-          </Card>
-        </AnimatedOnScroll>
-        <AnimatedOnScroll>
-          <Card href="/galerie/zvirata" id="zvirata">
-            <Photo src={AnimalSrc} alt="Swan" />
-            <div>
-              <Heading>Zvířata</Heading>
-              <p>
-                Fotografování zvířat je pro mě způsobem, jak se propojit s
-                přírodou a zachytit jedinečné okamžiky jejich života.
-              </p>
-              <p>
-                Vyrážím brzy ráno, kdy jsou zvířata nejaktivnější a barvy
-                přírody jsou nejvýraznější. Trpělivost je klíčová, často trávím
-                hodiny čekáním na správný moment. Snažím se respektovat jejich
-                prostor a chovat se tiše, abych je nevyděsila.
-              </p>
-              <p>
-                Každé setkání je jiné a vždy mě překvapí, jak rozmanité a krásné
-                jsou detaily zvířecího světa. Každý snímek vypráví svůj vlastní
-                příběh a zachycuje magii okamžiku. Fotografie zvířat mi
-                připomínají, jak důležité je chránit naši přírodu a její
-                obyvatele.
+                Každý portrét je pro mě příležitostí vyjádřit kreativitu a
+                uměleckou vizi. Spolupráce se mnou není jenom o focení, ale o
+                společném objevování vaší osobní krásy a síly. Mým závazkem je
+                vytvořit pro vás fotografie, které nejenom že vám budou
+                připomínat krásné momenty, ale které v sobě budou skrývat vaši
+                jedinečnou esenci.
               </p>
               <CardButton>
                 <span>Zobrazit galerii</span>
