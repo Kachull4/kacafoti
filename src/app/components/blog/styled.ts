@@ -1,6 +1,7 @@
 "use client"
 
 import { Container, Heading } from "@/app/(home)/styled";
+import Link from "next/link";
 import styled from "styled-components"
 
 export const BlogContainer = styled(Container)`
@@ -18,7 +19,7 @@ export const BlogHeading = styled(Heading)`
     font-size: 5rem;
 `
 
-export const Tile = styled.div`
+export const Tile = styled(Link)`
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
@@ -26,6 +27,8 @@ export const Tile = styled.div`
     max-width: 300px;
     margin: 1em;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 `
 
 export const TileImage = styled.img`
@@ -35,6 +38,9 @@ export const TileImage = styled.img`
 
 export const TileContent = styled.div`
     padding: 1em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 `;
 
 export const TileTitle = styled.h2`
@@ -47,7 +53,8 @@ export const TileDescription = styled.p`
     margin: 0 0 1rem;
 `;
 
-export const TileDate = styled.span`
+export const TileDate = styled.div`
     font-size: 1.4rem;
     margin: 0 0 1rem;
+    margin-top: auto;
 `;

@@ -10,7 +10,6 @@ export const ContactBlock = () => {
         <Icons>
           <Link href="mailto:katerina.beranova4@gmail.com" aria-label="E-mail">
             <svg
-              enable-background="new -196.249 120.788 485.474 372.825"
               id="Layer_1"
               version="1.1"
               viewBox="-196.249 120.788 485.474 372.825"
@@ -26,7 +25,6 @@ export const ContactBlock = () => {
             aria-label="Instagram"
           >
             <svg
-              enable-background="new -187.457 74.025 452.144 424.951"
               id="Layer_1"
               version="1.1"
               viewBox="-187.457 74.025 452.144 424.951"

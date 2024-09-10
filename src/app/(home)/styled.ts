@@ -228,6 +228,16 @@ export const Blog = styled.section`
     scroll-margin-block: 5rem;
 `
 
+export const BlogTileRow = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    ${device.md} {
+        flex-direction: row;
+    }
+`
+
 export const BlogTile = styled.div`
     border-radius: 10px;
 `

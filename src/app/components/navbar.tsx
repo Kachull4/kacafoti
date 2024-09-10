@@ -51,7 +51,6 @@ export const NavigationMenu: React.FC = () => {
           <MenuItem>
             <MenuLink href={isHomePage ? "#zvirata" : "/#zvirata"}>
               <AnimalsSvg
-                enable-background="new 0 0 512 512"
                 version="1.1"
                 viewBox="0 0 512 512"
                 width="2em"
@@ -68,7 +67,6 @@ export const NavigationMenu: React.FC = () => {
           <MenuItem>
             <MenuLink href={isHomePage ? "#krajina" : "/#krajina"}>
               <svg
-                enable-background="new 0 0 512 512"
                 version="1.1"
                 viewBox="0 0 512 512"
                 width="2em"
@@ -84,7 +82,6 @@ export const NavigationMenu: React.FC = () => {
           <MenuItem>
             <MenuLink href={isHomePage ? "#mazlicci" : "/#mazlicci"}>
               <svg
-                enable-background="new 0 0 512 512"
                 version="1.1"
                 viewBox="0 0 512 512"
                 width="2em"
@@ -110,7 +107,6 @@ export const NavigationMenu: React.FC = () => {
           <MenuItem>
             <MenuLink href={isHomePage ? "#portrety" : "/#portrety"}>
               <svg
-                enable-background="new 0 0 512 512"
                 version="1.1"
                 viewBox="0 0 512 512"
                 width="2em"
@@ -170,7 +166,6 @@ export const NavigationMenu: React.FC = () => {
           <MenuItem>
             <MenuLink href={isHomePage ? "#blog" : "/blog"}>
               <svg
-                enable-background="new 0 0 512 512"
                 version="1.1"
                 viewBox="0 0 512 512"
                 width="2em"
@@ -184,7 +179,6 @@ export const NavigationMenu: React.FC = () => {
           <MenuItem>
             <MenuLink href="#kontakt">
               <svg
-                enable-background="new 0 0 512 512"
                 id="Letter"
                 version="1.1"
                 viewBox="0 0 512 512"

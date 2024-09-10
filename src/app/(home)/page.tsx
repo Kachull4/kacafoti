@@ -18,6 +18,7 @@ import {
   CardButton,
   Blog,
   BlogButton,
+  BlogTileRow,
 } from "./styled";
 import { BlogTile } from "../components/blog/tile";
 import { articles } from "../articles";
@@ -237,17 +238,19 @@ export default function Home() {
         <AnimatedOnScroll>
           <Blog id="blog">
             <Heading>Blog</Heading>
-            {articles.map((article) => (
-              <BlogTile
-                key={article.id}
-                title={article.title}
-                description={article.description}
-                date={article.date}
-                imageUrl={article.imageUrl}
-                altText={article.altText}
-                readMoreLink={`/blog/${article.id}`}
-              />
-            ))}
+            <BlogTileRow>
+              {articles.map((article) => (
+                <BlogTile
+                  key={article.id}
+                  title={article.title}
+                  description={article.description}
+                  date={article.date}
+                  imageUrl={article.imageUrl}
+                  altText={article.altText}
+                  readMoreLink={`/blog/${article.id}`}
+                />
+              ))}
+            </BlogTileRow>
             <BlogButton href="/blog">
               <span>Zobrazit všechny články</span>
               <svg

@@ -28,15 +28,13 @@ export const BlogTile: React.FC<BlogTileProps> = ({
   readMoreLink,
 }) => {
   return (
-    <Link href={readMoreLink}>
-      <Tile>
-        <TileImage src={imageUrl} alt={altText} />
-        <TileContent>
-          <TileTitle>{title}</TileTitle>
-          <TileDescription>{description}</TileDescription>
-          <TileDate>{date}</TileDate>
-        </TileContent>
-      </Tile>
-    </Link>
+    <Tile href={readMoreLink}>
+      <TileImage src={imageUrl} alt={altText} />
+      <TileContent>
+        <TileTitle>{title}</TileTitle>
+        <TileDescription>{description}</TileDescription>
+        <TileDate>{date}</TileDate>
+      </TileContent>
+    </Tile>
   );
 };

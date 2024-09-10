@@ -1,6 +1,5 @@
 "use client";
 
-import { Container } from "@/app/(home)/styled";
 import { BlogContainer, BlogGrid, BlogHeading } from "./styled";
 import { BackButton } from "../gallery/styled";
 import { articles } from "@/app/articles";
