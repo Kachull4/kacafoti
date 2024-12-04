@@ -4,7 +4,7 @@ import AvatarSrc from "./images/avatar.webp";
 import LandscapeSrc from "./images/DSC06018-Enhanced-NR.webp";
 import AnimalSrc from "./images/DSC09353-Enhanced-NR.jpg";
 import PetSrc from "./images/DSC03151-Enhanced-NR-2.jpg";
-import PortretSrc from "./images/DSC01787-Enhanced-NR.webp";
+//import PortretSrc from "./images/DSC01787-Enhanced-NR.webp";
 import { AnimatedOnScroll } from "../components/animated-on-scroll";
 import { ContactBlock } from "../components/contact/contact";
 
@@ -192,7 +192,7 @@ export default function Home() {
             <Photo src={PetSrc} alt="Kočka" />
           </Card>
         </AnimatedOnScroll>
-
+        {/* 
         <AnimatedOnScroll>
           <Card href="/galerie/portrety" id="portrety">
             <Photo src={PortretSrc} alt="Portrét" />
@@ -235,6 +235,7 @@ export default function Home() {
             </div>
           </Card>
         </AnimatedOnScroll>
+        */}
         <AnimatedOnScroll>
           <Blog id="blog">
             <Heading>Blog</Heading>

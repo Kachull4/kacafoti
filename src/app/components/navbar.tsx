@@ -104,7 +104,7 @@ export const NavigationMenu: React.FC = () => {
               Mazlíčci
             </MenuLink>
           </MenuItem>
-          <MenuItem>
+          {/*<MenuItem>
             <MenuLink href={isHomePage ? "#portrety" : "/#portrety"}>
               <svg
                 version="1.1"
@@ -162,7 +162,7 @@ export const NavigationMenu: React.FC = () => {
               </svg>
               Portréty
             </MenuLink>
-          </MenuItem>
+          </MenuItem>*/}
           <MenuItem>
             <MenuLink href={isHomePage ? "#blog" : "/blog"}>
               <svg

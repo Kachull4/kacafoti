@@ -16,13 +16,13 @@ export const articles = [
     imageUrl: "/blog/images/rok-se-sony-a7iv.jpg",
     altText: "Fotografie článku",
   },
-  {
+  /*{
     id: "moje-fotograficke-vybaveni",
     title: "Moje fotografické vybavení",
     description:
       "Když kreativita potřebuje prostor (a ten batoh už to nedává!)",
-    date: "15.11.2024",
+    date: "3.12.2024",
     imageUrl: "/blog/images/moje-fotograficke-vybaveni.avif",
     altText: "Fotografie článku",
-  },
+  },*/
 ];
