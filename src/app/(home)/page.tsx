@@ -1,8 +1,8 @@
 "use client";
 
 import AvatarSrc from "./images/avatar.webp";
-import LandscapeSrc from "./images/DSC06018-Enhanced-NR.webp";
-import AnimalSrc from "./images/DSC09353-Enhanced-NR.jpg";
+import LandscapeSrc from "./images/krajina.jpg";
+import AnimalSrc from "./images/pelican.jpg";
 import PetSrc from "./images/DSC03151-Enhanced-NR-2.jpg";
 //import PortretSrc from "./images/DSC01787-Enhanced-NR.webp";
 import { AnimatedOnScroll } from "../components/animated-on-scroll";
@@ -100,7 +100,7 @@ export default function Home() {
                 </svg>
               </CardButton>
             </div>
-            <Photo src={AnimalSrc} alt="Swan" />
+            <Photo src={AnimalSrc} alt="Pelican" />
           </Card>
         </AnimatedOnScroll>
         <AnimatedOnScroll>
