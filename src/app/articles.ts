@@ -16,6 +16,15 @@ export const articles = [
     imageUrl: "/blog/images/rok-se-sony-a7iv.jpg",
     altText: "Fotografie článku",
   },
+  {
+    id: "fotoexpedice-australie-2024",
+    title: "Tropická Austrálie objektivem",
+    description:
+      "Dobrodružství plné divokých zvířat, pralesů, nočních výprav a nezapomenutelných momentů v divočině",
+    date: "6.12.2024",
+    imageUrl: "/blog/images/fotoexpedice-australie-2024.avif",
+    altText: "Fotografie článku",
+  },
   /*{
     id: "moje-fotograficke-vybaveni",
     title: "Moje fotografické vybavení",
