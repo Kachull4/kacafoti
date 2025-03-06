@@ -8,7 +8,7 @@ export const ContactBlock = () => {
       <Container>
         <Heading>Kontakt</Heading>
         <Icons>
-          <Link href="mailto:katerina.beranova4@gmail.com" aria-label="E-mail">
+          <Link href="mailto:katerina.hoffman4@gmail.com" aria-label="E-mail">
             <svg
               id="Layer_1"
               version="1.1"
@@ -21,7 +21,7 @@ export const ContactBlock = () => {
             </svg>
           </Link>
           <Link
-            href="https://www.instagram.com/kaca_beranova"
+            href="https://www.instagram.com/kaca_hoffman"
             aria-label="Instagram"
           >
             <svg
