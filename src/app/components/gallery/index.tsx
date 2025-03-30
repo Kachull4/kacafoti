@@ -6,7 +6,7 @@ import { BackButton, GalleryHeading } from "@/app/components/gallery/styled";
 import { FC } from "react";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { ContactBlock } from "../contact/contact";
-import { NavigationMenu } from "../navbar";
+import { NavigationMenu } from "../navbar/navbar";
 
 type Props = {
   images: StaticImport[];

@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Pacifico, Roboto } from "next/font/google";
+import { Alexandria, PT_Serif } from "next/font/google";
 import { GlobalStyles } from "./globals";
 
-const pacifico = Pacifico({
+const alexandria = Alexandria ({
   subsets: ["latin"],
   weight: ["400"],
-  variable: "--pacifico",
+  variable: "--alexandria",
 });
-const roboto = Roboto({ subsets: ["latin"], weight: ["400"] });
+const pt_serif = PT_Serif({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
   title: "Káča fotí",
@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="cs">
       <GlobalStyles />
-      <body className={`${roboto.className} ${pacifico.variable}`}>
+      <body className={`${pt_serif.className} ${alexandria.variable}`}>
         {children}
       </body>
     </html>
