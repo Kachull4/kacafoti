@@ -4,7 +4,6 @@ import AvatarSrc from "./images/avatar.webp";
 import LandscapeSrc from "./images/krajina.jpg";
 import AnimalSrc from "./images/pelican.jpg";
 import PetSrc from "./images/DSC03151-Enhanced-NR-2.jpg";
-//import PortretSrc from "./images/DSC01787-Enhanced-NR.webp";
 import { AnimatedOnScroll } from "../components/animated-on-scroll";
 import { ContactBlock } from "../components/contact/contact";
 
@@ -29,7 +28,7 @@ export default function Home() {
     <>
       <NavigationMenu />
       <main>
-        <Intro id="uvod">
+        <Intro id="about">
           <Container>
             <Avatar src={AvatarSrc} alt="Avatar" />
             <div>
@@ -38,20 +37,14 @@ export default function Home() {
                 internetu
               </Heading>
               <p>
-                Jsem nadšená umělkyně, milovnice zvířat a vášnivá fotografka. Od
-                malička mě fascinovala příroda a její krásy, což se odráží i v
-                mých koníčcích a tvorbě. Zachycování krásy světa kolem nás
-                prostřednictvím objektivu mi přináší radost. Nejraději fotím
-                přírodu, květiny a zvířata v jejich přirozeném prostředí. Každý
-                snímek je pro mě unikátní příběh, který se snažím sdílet s
-                ostatními.
+                Fotím, maluju, ztrácím se v přírodě a zkoumám svět skrz
+                objektiv. Od dětství mě fascinují zvířata, barvy a detaily,
+                kterých si většina lidí nevšimne.
               </p>
               <p>
-                Vedle fotografování se věnuji i malbě. Maluji olejomalby, které
-                mi umožňují vyjádřit svou lásku k přírodě a zvířatům. Každý tah
-                štětcem je pro mě cestou k zachycení okamžiku, který mě oslovil
-                a inspiroval. Miluji barevné kontrasty a jemné detaily, které
-                přinášejí mým obrazům život a hloubku.
+                Nejčastěji fotím přírodu, zvířata a rostliny v jejich přirozeném
+                prostředí, ať už někde v tropech nebo doma na zahradě. Každá
+                fotka pro mě nese konkrétní moment, náladu a příběh.
               </p>
               <p>
                 Ať už jde o umění, fotografii nebo lásku k přírodě, věřím, že
@@ -63,25 +56,22 @@ export default function Home() {
           </Container>
         </Intro>
         <AnimatedOnScroll>
-          <Card href="/galerie/zvirata" id="zvirata">
+          <Card href="/galerie/zvirata" id="gallery">
             <div>
               <Heading>Zvířata</Heading>
               <p>
-                Fotografování zvířat je pro mě způsobem, jak se propojit s
-                přírodou a zachytit jedinečné okamžiky jejich života.
+                Fotografování zvířat je pro mě výzva i terapie. Miluju ten
+                moment ticha, kdy čekám, co se objeví, a jestli vůbec. Vyrážím
+                brzo ráno, kdy je světlo nejměkčí a příroda nejživější.
               </p>
               <p>
-                Vyrážím brzy ráno, kdy jsou zvířata nejaktivnější a barvy
-                přírody jsou nejvýraznější. Trpělivost je klíčová, často trávím
-                hodiny čekáním na správný moment. Snažím se respektovat jejich
-                prostor a chovat se tiše, abych je nevyděsila.
+                Trpělivost je klíčová, někdy čekám hodiny, jindy to trvá jen pár
+                vteřin. Snažím se zvířata nerušit, být spíš pozorovatel než
+                narušitel.
               </p>
               <p>
-                Každé setkání je jiné a vždy mě překvapí, jak rozmanité a krásné
-                jsou detaily zvířecího světa. Každý snímek vypráví svůj vlastní
-                příběh a zachycuje magii okamžiku. Fotografie zvířat mi
-                připomínají, jak důležité je chránit naši přírodu a její
-                obyvatele.
+                Každý snímek je pro mě malý příběh. Někdy klidný, jindy
+                dramatický. Ale vždycky opravdový.
               </p>
               <CardButton>
                 <span>Zobrazit galerii</span>
@@ -109,24 +99,17 @@ export default function Home() {
             <div>
               <Heading>Krajina</Heading>
               <p>
-                Při fotografování krajiny objevuji a uchovávám krásu světa kolem
-                nás. Pečlivě vybírám lokaci a studuji počasí, abych využila
-                nejlepší světelné podmínky. Nejraději fotím při východu nebo
-                západu slunce, kdy je světlo měkké a teplé, což dodává krajině
-                magickou atmosféru.
+                Krajinu nefotím jen proto, že je hezká. Zajímá mě atmosféra,
+                světlo, struktura. Než zmáčknu spoušť, trávím dost času výběrem
+                místa, sledováním světla i počasí.
               </p>
               <p>
-                Soustředím se na kompozici a hledám zajímavé prvky, jako jsou
-                siluety stromů, skály nebo vodní plochy.
+                Miluju zlatou hodinku, východ nebo západ slunce, kdy všechno na
+                chvíli ztichne a krajina se promění.
               </p>
               <p>
-                Každá krajina má svůj jedinečný charakter, snažím se proto
-                zachytit její podstatu a atmosféru. Světlo a stíny dokážou
-                proměnit i známou scenérii v něco nového a překvapivého.
-              </p>
-              <p>
-                Fotografie krajiny mi přináší radost a inspiraci a motivují mě
-                si jí vážit ještě více.
+                Nehledám pohlednicové scenérie, spíš momenty, které ve mně něco
+                zanechají.
               </p>
               <CardButton>
                 <span>Zobrazit galerii</span>
@@ -152,25 +135,17 @@ export default function Home() {
             <div>
               <Heading>Mazlíčci</Heading>
               <p>
-                Velmi zábavnou činností je fotografování domácích mazlíčků.
-                Umožňuje mi zachytit jejich osobitý charakter a radostné
-                momenty.
+                Focení mazlíčků je kombinace radosti, chaosu a trpělivosti.
+                Každý pes nebo kočka je jiná a právě to mě na tom baví
               </p>
               <p>
-                Používám hračky a pamlsky, k upoutání jejich pozornost a
-                vyvolání různých výrazů a póz. Ráda fotím v přirozeném světle,
-                ideálně v přírodě, aby byly snímky co nejvíce autentické a plné
-                života.
+                Ráda fotím venku v přirozeném světle. Hračky, pamlsky a rychlé
+                reakce jsou základ. Většinou to není o pózování, ale o zachycení
+                momentu, výrazu nebo pohybu.
               </p>
               <p>
-                Každý mazlíček je jiný, proto se snažím vystihnout jejich
-                jedinečnou osobnost. Trpělivost je klíčová, protože mazlíčci
-                mají svou vlastní hlavu a často neposedí. Ale právě to dělá
-                focení tak zábavným a nevyzpytatelným.
-              </p>
-              <p>
-                Výsledné fotografie nejsou jen obrázky, ale vzpomínky na
-                společné chvíle plné lásky a radosti.
+                Výsledkem nejsou jen hezké fotky, ale hlavně vzpomínky. Na
+                chvíle, které s námi ti chlupatí parťáci sdílejí.
               </p>
               <CardButton>
                 <span>Zobrazit galerii</span>
@@ -192,65 +167,31 @@ export default function Home() {
             <Photo src={PetSrc} alt="Kočka" />
           </Card>
         </AnimatedOnScroll>
-        {/* 
-        <AnimatedOnScroll>
-          <Card href="/galerie/portrety" id="portrety">
-            <Photo src={PortretSrc} alt="Portrét" />
-            <div>
-              <Heading>Portréty</Heading>
-              <p>
-                Srdeční záležitostí jsou pro mě portréty, přestože jsem teprve
-                na začátku své cesty. Vždy se snažím zachytit nejen vzhled, ale
-                i osobnost a jedinečnost každého člověka.
-              </p>
-              <p>
-                Mým cílem není jenom vyfotit pěkný obrázek, ale vytvořit
-                emotivní a autentické snímky, které v sobě nesou vaši osobní
-                podstatu.
-              </p>
-              <p>
-                Každý portrét je pro mě příležitostí vyjádřit kreativitu a
-                uměleckou vizi. Spolupráce se mnou není jenom o focení, ale o
-                společném objevování vaší osobní krásy a síly. Mým závazkem je
-                vytvořit pro vás fotografie, které nejenom že vám budou
-                připomínat krásné momenty, ale které v sobě budou skrývat vaši
-                jedinečnou esenci.
-              </p>
-              <CardButton>
-                <span>Zobrazit galerii</span>
-                <svg
-                  version="1.1"
-                  viewBox="0 0 91 91"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g>
-                    <path
-                      fill="#ff9999"
-                      d="M8.1,53.5c18.4-1,36.9-2,55.4-2.4c-8.6,6.9-16,15.6-14.7,25.3c0.4,2.6,4.3,3.4,5.9,1.6   c4.4-4.9,7.1-10.6,12-15.3c5.3-5,11.3-8.9,17.6-12.5c1.7-1,2.5-2.4,2.6-4c0.4-1.9-0.3-4-2.6-5.5c-6-4-11.8-7.7-16.9-12.9   c-4.4-4.7-8.1-10-12-15.1c-2-2.7-6.9-1.3-5.8,2.4c2.3,8.2,7.5,17,14.1,24.1c-18.5-0.5-37.2,0.4-55.6,1.3   C-0.3,40.9-0.3,53.9,8.1,53.5z"
-                    />
-                  </g>
-                </svg>
-              </CardButton>
-            </div>
-          </Card>
-        </AnimatedOnScroll>
-        */}
         <AnimatedOnScroll>
           <Blog id="blog">
             <Heading>Blog</Heading>
             <BlogTileRow>
-              {articles.map((article) => (
-                <BlogTile
-                  key={article.id}
-                  title={article.title}
-                  description={article.description}
-                  date={article.date}
-                  imageUrl={article.imageUrl}
-                  altText={article.altText}
-                  readMoreLink={`/blog/${article.id}`}
-                />
-              ))}
+              {articles
+                .sort((a, b) => {
+                  const [dayA, monthA, yearA] = a.date.split(".").map(Number);
+                  const [dayB, monthB, yearB] = b.date.split(".").map(Number);
+                  return (
+                    new Date(yearB, monthB - 1, dayB).getTime() -
+                    new Date(yearA, monthA - 1, dayA).getTime()
+                  );
+                })
+                .slice(0, 3)
+                .map((article) => (
+                  <BlogTile
+                    key={article.id}
+                    title={article.title}
+                    description={article.description}
+                    date={article.date}
+                    imageUrl={article.imageUrl}
+                    altText={article.altText}
+                    readMoreLink={`/blog/${article.id}`}
+                  />
+                ))}
             </BlogTileRow>
             <BlogButton href="/blog">
               <span>Zobrazit všechny články</span>

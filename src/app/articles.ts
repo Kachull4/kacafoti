@@ -25,13 +25,29 @@ export const articles = [
     imageUrl: "/blog/images/fotoexpedice-australie-2024.avif",
     altText: "Fotografie článku",
   },
-  /*{
+  {
     id: "moje-fotograficke-vybaveni",
     title: "Moje fotografické vybavení",
     description:
       "Když kreativita potřebuje prostor (a ten batoh už to nedává!)",
-    date: "3.12.2024",
+    date: "3.1.2025",
     imageUrl: "/blog/images/moje-fotograficke-vybaveni.avif",
     altText: "Fotografie článku",
-  },*/
+  },
+  {
+    id: "moje-fotky-visi-na-hrade",
+    title: "Czech Nature Photo 2025",
+    description: "Moje fotky visí na Hradě!",
+    date: "24.4.2025",
+    imageUrl: "/blog/images/moje-fotky-visi-na-hrade.avif",
+    altText: "Fotografie článku",
+  },
+  {
+    id: "fep-awards-2025-9-misto-ve-wildlife",
+    title: "FEP Awards 2025",
+    description: "9. místo ve Wildlife kategorii",
+    date: "28.4.2025",
+    imageUrl: "/blog/images/fep-awards-2025.avif",
+    altText: "Fotografie článku",
+  },
 ];
