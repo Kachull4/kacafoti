@@ -43,7 +43,7 @@ export const articles = [
     altText: "Fotografie článku",
   },
   {
-    id: "fep-awards-2025-9-misto-ve-wildlife",
+    id: "fep-awards-2025",
     title: "FEP Awards 2025",
     description: "9. místo ve Wildlife kategorii",
     date: "28.4.2025",
