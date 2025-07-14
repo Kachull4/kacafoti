@@ -11,7 +11,9 @@ export const BlogContainer = styled(Container)`
 
 export const BlogGrid = styled.div`
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 4rem;
   margin-bottom: 5rem;
 `;
 
